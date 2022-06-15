@@ -1,9 +1,12 @@
 {
-  "name": "typescript-library-starter",
+  "name": "udsm-lab-interview-2022",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "description": "## Question 1",
+  "main": "jest.config.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
   "scripts": {
     "start": "webpack-dev-server --env dev",
     "build": "webpack --env prod",
@@ -12,42 +15,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rajey/typescript-library-starter.git"
+    "url": "git+https://github.com/Dkiba/udsm-lab-interview-2022.git"
   },
-  "author": "Rajab Mkomwa",
-  "license": "LGPL-3.0",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rajey/typescript-library-starter/issues"
+    "url": "https://github.com/Dkiba/udsm-lab-interview-2022/issues"
   },
-  "homepage": "https://github.com/rajey/typescript-library-starter#readme",
+  "homepage": "https://github.com/Dkiba/udsm-lab-interview-2022#readme",
   "devDependencies": {
-    "@types/jest": "^25.2.1",
-    "@types/lodash": "^4.14.138",
-    "clean-webpack-plugin": "^3.0.0",
-    "commitizen": "^4.0.4",
-    "copy-webpack-plugin": "^5.1.1",
-    "cz-conventional-changelog": "^3.0.2",
-    "docdash": "^1.1.1",
-    "husky": "^4.2.5",
-    "jest": "^25.5.1",
-    "jsdoc": "^3.6.4",
-    "ts-jest": "^24.0.2",
-    "ts-loader": "^6.0.4",
-    "typedoc": "^0.17.6",
-    "typedoc-webpack-plugin": "^1.1.4",
-    "typescript": "^3.6.2",
-    "uglifyjs-webpack-plugin": "^2.2.0",
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.8",
-    "webpack-dev-server": "^3.8.0",
-    "yargs": "^15.3.1"
-  },
-  "dependencies": {
-    "lodash": "^4.17.15"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+    "@types/jest": "^28.1.1",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.3"
   }
 }
